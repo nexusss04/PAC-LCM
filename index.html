@@ -1037,7 +1037,12 @@
 
       while (queue.length) {
         const cell = queue.shift();
-        if (maze[cell.r] && maze[cell.r][cell.c] !== 1) reachable.push(cell);
+        // Kawasan rumah hantu dan laluan sekelilingnya dikecualikan daripada
+        // lokasi nombor supaya pemain tak perlu masuk ke tempat hantu berkumpul.
+        const nearGhostHouse = cell.r >= 8 && cell.r <= 12 && cell.c >= 7 && cell.c <= 14;
+        if (maze[cell.r] && maze[cell.r][cell.c] !== 1 && !nearGhostHouse) {
+          reachable.push(cell);
+        }
         for (const [dc, dr] of directions) {
           const c = cell.c + dc;
           const r = cell.r + dr;
