@@ -1,16 +1,12 @@
-# LCM QUEST — Kembara Pokok Faktor & GSTK
+# LCM QUEST — Pac-Man GSTK
 
-Permainan pendidikan Matematik tentang faktor perdana dan GSTK (Gandaan Sepunya Terkecil).
-
-## Terbitkan di GitHub Pages
-1. Muat naik `index.html`, `README.md` dan `.nojekyll` ke root repositori GitHub.
-2. Buka **Settings → Pages**.
-3. Pilih **Deploy from a branch**, branch `main`, folder `/(root)`, kemudian **Save**.
-4. Tunggu sehingga GitHub Pages menerbitkan laman.
+Permainan pembelajaran GSTK (LCM) ringkas dalam satu fail HTML.
 
 ## Cara bermain
-- Gunakan kekunci anak panah atau WASD pada komputer.
-- Pada telefon, gunakan butang arah pada skrin.
-- Kumpul nombor faktor perdana dalam maze, kemudian jawab soalan GSTK.
+1. Buka `index.html` dalam Chrome, Edge, Firefox atau pelayar moden.
+2. Pilih **Easy**, **Medium** atau **Hard** dari skrin permulaan.
+3. Gerakkan Pac-Man dengan kekunci anak panah atau butang arah pada skrin.
+4. Kutip ceri untuk memaparkan soalan GSTK.
+5. Semasa soalan aktif, kejar hantu yang memaparkan jawapan yang betul. Hantu yang salah akan mengurangkan satu nyawa.
 
-Tiada proses build diperlukan; permainan berjalan terus sebagai laman HTML statik.
+Tiada pemasangan atau internet diperlukan selepas fail dimuat turun.
